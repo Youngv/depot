@@ -19,6 +19,9 @@
 				<li><a href="http://www..../news">News</a></li>
 				<li><a href="http://www..../contact">Contact</a></li>
 				<li><p>It is <%= Time.now %> now.</p></li>
+				<% if session[:counter] > 5 %>
+				<li><p>You have been here <%= pluralize session[:counter], 'time' %> .</p></li>
+				<% end %>
 			</ul>
 		</div>
 		<div id="main">
