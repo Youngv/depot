@@ -37,3 +37,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 # To use debugger
 # gem 'debugger'
 gem 'will_paginate', '~>3.0'
+
+group :production do
+	gem 'mysql2'
+end
