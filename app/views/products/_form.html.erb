@@ -17,7 +17,7 @@
   </div>
   <div class="field">
     <%= f.label :locale %><br />
-    <%= f.select :locale, LANGUAGES, :selected => I18n.locale  %>
+    <%= f.select :locale, LANGUAGES, selected: I18n.locale.to_s  %>
   </div>
   <div class="field">
     <%= f.label :description %><br />

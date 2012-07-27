@@ -30,6 +30,11 @@ en:
       questions:   "Questions"
       news:        "News"
       contact:     "Contact"
+
+      orders:      "Orders"
+      products:    "Products"
+      users:       "Users"
+      logout:      "Logout"
 #END:layout
 
 #START:cart

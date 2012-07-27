@@ -36,6 +36,11 @@ zh_CN:
       questions:   "常见问题"
       news:        "最新消息"
       contact:     "联系我们"
+
+      orders:      "订单列表"
+      products:    "产品列表"
+      users:       "用户列表"
+      logout:      "注销"
 #END:layout
 
 #START:cart
